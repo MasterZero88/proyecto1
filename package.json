@@ -2,7 +2,7 @@
   "name": "Tutorial_04",
   "version": "1.0.0",
   "description": "Nuxt starter for CodeSandBox",
-  "author": "Armando Arce",
+  "author": "Jhonny Alvarez",
   "private": true,
   "scripts": {
     "dev": "nuxt",
