@@ -1,10 +1,8 @@
 ---
-id: publisher_1
-name: John Wiley & Sons
+id: ciudad_1
+name: Nueva York
 country: United States
 founded: 1807
-genere: 
-  - Academic
 image: publishers/publisher_1.png
 ---
 

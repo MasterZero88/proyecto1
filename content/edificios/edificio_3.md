@@ -1,12 +1,10 @@
 ---
-id: book_3
-title: Computer Networks
-edition: 5th
-copyright: 2010
-language: ENGLISH
-pages: 960
-authorId: author_2
-publisherId: publisher_2
+id: edificio_3
+title: Edificio 3
+founded: 1235
+high: 50 metros
+arquitectoId: arquitecto_3
+ciudadId: publisher_3
 image: books/book_3.jpg
 ---
 

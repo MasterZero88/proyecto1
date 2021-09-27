@@ -1,11 +1,11 @@
 ---
-id: author_2
-name: Andrew S. Tanenbaum
-nationality: Dutch / American
-birth_year: 1944
-fields: 
-  - Distributed computing
-  - Operating Systems
+id: arquitecto_2
+name: Juan Perez
+nationality: Israelis / American
+birth_year: 1952
+fields:
+  - Arquitectura antigua
+  - Arquitectura moderna
 image: authors/author_2.jpg
 ---
 

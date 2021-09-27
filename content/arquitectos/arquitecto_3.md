@@ -1,11 +1,11 @@
 ---
-id: author_3
-name: Alfred V. Aho
-nationality: Canadian
-birth_year: 1941
-fields: 
-  - Compilers
-  - Data Structures
+id: arquitecto_3
+name: Pedro Ramirez
+nationality: Israelis / American
+birth_year: 1952
+fields:
+  - Arquitectura abstracta
+  - Arquitectura moderna
 image: authors/author_3.jpg
 ---
 

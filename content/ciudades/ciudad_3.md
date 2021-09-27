@@ -1,10 +1,8 @@
 ---
-id: publisher_3
-name: Addison Wesley
+id: ciudad_1
+name: Nueva York
 country: United States
-founded: 1942
-genere: 
-  - Computer Science
+founded: 1807
 image: publishers/publisher_3.png
 ---
 
