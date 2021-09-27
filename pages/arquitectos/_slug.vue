@@ -3,7 +3,7 @@
     async asyncData({ $content, params }) {
       const arquitecto = await $content('arquitectos', params.slug).fetch()
       const edificios = await $content('edificios').where({ arquitectoId: params.slug }).fetch()
-      return { arquitecto, edificio }
+      return { arquitecto, edificios }
     }
   }
 </script>
@@ -19,7 +19,7 @@
        <h4>{{arquitecto.name}}</h4>
 	   Nationality: {{arquitecto.nationality}}; Born: {{arquitecto.birth_year}}<br>
 	   <b>Biography</b><br>
-	    <nuxt-content :document="author" />
+	    <nuxt-content :document="arquitecto" />
 	 </div>
 	 <div class="three columns"></div>
 	   <h5>Edificios</h5>

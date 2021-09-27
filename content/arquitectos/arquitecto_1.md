@@ -1,5 +1,5 @@
 ---
-id: author_1
+id: arquitecto_1
 name: Abraham Silberschatz
 nationality: Israelis / American
 birth_year: 1952

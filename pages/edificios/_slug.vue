@@ -2,8 +2,8 @@
   export default {
     async asyncData({ $content, params }) {
       const edificio = await $content('edificios', params.slug).fetch()
-      const arquitecto = await $content('arquitectos').where({ id: edificio.edificioId }).only(['name']).fetch()
-      const ciudad = await $content('ciudades').where({ id: edificio.edificioId }).only(['name']).fetch()
+      const arquitecto = await $content('arquitectos').where({ id: edificio.arquitectoId }).only(['name']).fetch()
+      const ciudad = await $content('ciudades').where({ id: edificio.ciudadId }).only(['name']).fetch()
       return { edificio, arquitecto, ciudad }
     }
   }
@@ -20,7 +20,6 @@
        <h4>{{edifcio.title}}</h4>
 	   by <NuxtLink :to="'/authors/'+edificio.arquitectoId">{{arquitecto[0].name}}</NuxtLink><br>
        
-	   published by <NuxtLink :to="'/publishers/'+book.publisherId">{{publisher[0].name}}</NuxtLink></br></br>
 	   <b>Description</b><br>
 	    <nuxt-content :document="book" />
 	 </div>
