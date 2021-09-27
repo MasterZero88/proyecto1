@@ -35,7 +35,7 @@ collections:
   - name: "edificios"
     label: "Edificios"
     folder: "content/edificios"
-  create: true
+    create: true
     fields:
       - {label: "Id", name: "id", widget: "hidden", default: "book_{{hour}}{{minute}}{{second}}"}
       - {label: "Title", name: "title", widget: "string"}
