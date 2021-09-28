@@ -17,7 +17,7 @@
        <img class="u-max-full-width" :src="'/images/'+edificio.image" alt="Italian Trulli">
      </div>
      <div class="six columns">
-       <h4>{{edifcio.title}}</h4>
+       <h4>{{edificio.title}}</h4>
 	   by <NuxtLink :to="'/authors/'+edificio.arquitectoId">{{arquitecto[0].name}}</NuxtLink><br>
        
 	   <b>Description</b><br>
